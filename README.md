@@ -30,14 +30,14 @@ The project may face some challenges from different areas and stakeholders. The 
 
 Rules and regulations may apply to the system and hence reducing its usage and functionality. We will continuously monitor the status of the system and hope it can overcome those challenges and deliver a healthy and legal system to all the users.
 ## Business Model
-Unfortunately, the project dose not have a business model at this moment as the project intend to require a large community with a lot of users and all the functions are free and available for everyone. Instead, if the project can grow large enough and having a strong will to stay continues, we may set up a foundation similar to the Wikipedia to accept donation with the characteristic of charity. Currently, there have no foundation or company registered in the name of ‘invenage’, but we reserve the right for doing so.
+Unfortunately, the project does not have a business model at this moment as the project intend to require a large community with a lot of users and all the functions are free and available for everyone. Instead, if the project can grow large enough and having a strong will to stay continues, we may set up a foundation similar to the Wikipedia to accept donation with the characteristic of charity. Currently, there have no foundation or company registered in the name of ‘invenage’, but we reserve the right for doing so.
 
 # About Development
 ## System architecture
 ### Frontend
-We may create a webpage base on React to access backend API. The module will be containerized and use AWS for hosting it. Check [this repo]() for more details.
+We may create a webpage base on React to access backend API. The module will be containerized and use AWS for hosting it. Check [this repo](https://github.com/invenage/www.invenage.com) for more details.
 ### Backend
-We target to create two APIs using dotnet 6 and host on AWS. One is for authorization and one is for the core functions.  Check [this repo]() for more details for the core.
+We target to create two APIs using dotnet 6 and host on AWS. One is for authorization and one is for the core functions.  Check [this repo](https://github.com/invenage/api.invenage.com) for more details for the core.
 ### Database
 We may use AWS MongoDB for main data storage and Redis or local Memory cache for cached data.
 ## Functions
