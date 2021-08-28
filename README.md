@@ -52,16 +52,23 @@ The system will have following functions and subject to add more base on require
 * Allow direct API access.
 ## Schedule
 ### Phase 0
-This phase will focus on the core API system and implement the functions listed above. Target launch data should be no earlier than mid-2022. The code will be open sourced that allow community to apply changes.
-### Phase 0.5
-This phase will focus on authorization API system to control access. The implementation will start after completed the phase 0 and may require three months for develop and test. This system will not be open sourced as it contains sensitive information and not affect any core functions.
+#### Target functionality
+After complete this phase we expect to have an API for handling the information of items, allow users to add new items and update them. The API will also allow users register their connections for direct API access. There will also have an Authorization API allow users to login and grant access to the functions of core API.
+#### Target rollout date
+We target to complete this phase before early-2022.
 ### Phase 1
-This phase will target on the frontend system. If we have enough resources, it may run in parallel with phase 0 and phase 0.5. We will see if we can complete the development and let the project progress in production state in mid-2023.
-### Phase 2
-This phase is to upgrade the system for both frontend and backend if some functions are missing and improvements are needed. 
+#### Target functionality
+After complete this phase we expect to have a UI for accessing the functions of core API and Authorization API. We will also add more functions to core API in parallel, such as methods of creating the items, comments, rating and fuzzy search for items.
+#### Target rollout date
+We target to complete this phase before late-2022 depends on the progress of phase 0.
+### Phase 2 and Support
+#### Target functionality
+This phase will work on the remining functions that not implemented in previous phases.
+#### Target rollout date
+We expect to have continuous deployment for this phase and support. Expect to have a minor release per 2 weeks for bug fixing and a major release per 3 months for new functions, but depend on the emergency level, the period can be shorter or longer.
 
 # About Future
-This project is the seed for other potential projects that in our point of views, sustainability should not be the only solution for the future of humanity. As entropy keep increasing under the laws of thermodynamic, the only way for humans to prevent extinction for following hundreds or million years is not go to Mars but get enough energy from the sun, i.e. a deep space solar array system, or a Dyson Sphere. Both are very expensive in cost currently but we still hope that from this project we can achieve a faster technology evolution or getting enough time for us to prepare, before it is too late.
+This project is the seed for other potential projects that in our point of views, sustainability should not be the only solution for the future of humanity. As entropy keep increasing under the laws of thermodynamic, the only way for humans to prevent extinction for following hundreds or million years is to get enough energy from the sun, i.e. a deep space solar array system, or a Dyson Sphere. Both are very expensive in cost currently but we still hope that from this project we can achieve a faster technology evolution or getting enough time for us to prepare, before it is too late.
 
 
 <i>invenage, 2021
